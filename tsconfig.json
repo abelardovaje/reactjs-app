@@ -1,0 +1,17 @@
+{
+    
+     "compilerOptions": {
+         // "target": "ES5",
+         "module": "commonjs",
+         "noEmitOnError": true,
+         "noImplicitAny": true,
+         "experimentalDecorators": true,
+         "sourceMap": true,
+         "outDir": "./public/dist/",
+         "baseUrl":".",
+         "jsx": "react"
+     }, 
+     "include": [
+         "./resources/assets/js/**/*"
+     ]
+ }
